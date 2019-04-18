@@ -8,7 +8,7 @@ text.scan(/\bun\w*ing\b/)
 end
 
 def words_five_letters_long(text)
-  text.scan(/\b\w{5}\b/)
+  text.grep(/\b\w{5}\b/)
 
 end
 
